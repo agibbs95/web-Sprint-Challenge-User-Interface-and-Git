@@ -39,7 +39,7 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
+
 	content: none;
 }
 table {
@@ -130,7 +130,6 @@ footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -142,5 +141,12 @@ footer nav {
 
 footer nav a {
     color: white;
-    text-decoration: none;
+  text-decoration: none;}
+nav{width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align:right;
+    padding: 30px 4%;
+    font-size: 14px;
+ 
 }
